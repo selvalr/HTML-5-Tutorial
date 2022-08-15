@@ -20,6 +20,7 @@
 
 ### Tag syntax
 
+````bash
 - <tag> opening tag
 - </tag> closing tag
 - URL uniform Resource Location
@@ -358,7 +359,7 @@ Scripts can be placed in the <body>, or in the <head> section of an HTML page, o
 
 <iframe>#Defines an inline frame
 
-```
+````
 
 ### Block-element And Inlie
 
