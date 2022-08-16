@@ -49,6 +49,8 @@
 18.Setting FavIcon
 19.Setting Title
 
+
+
 # 1.HTML PAGE STRUCTURE
 
 <html>
@@ -287,6 +289,26 @@ Scripts can be placed in the <body>, or in the <head> section of an HTML page, o
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
 # 19.setting tittle
+
+
+*Html Medium *
+
+1.figure
+2.audio
+3.video
+4.map
+5.objects
+6.embed
+
+<---1.figure--->
+
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+
+
+<---2.audio--->
 
 ### Basic Commands
 
