@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title page</title>
+    <style>
+      .city {
+        background-color: tomato;
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+      #myHeader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Headings-->
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    <hr />
+
+    <!--Paragraph-->
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <p>
+      This is a <br />
+      paragraph with a line break.
+    </p>
+    <hr />
+
+    <!--HTML Link-->
+    <h2>HTML Link</h2>
+    <a href="https://www.w3schools.com">This is a link</a>
+    <hr />
+
+    <!--Image-->
+    <h2>Image</h2>
+    <img
+      src="./project/download (1).jpeg"
+      alt="W3Schools.com"
+      width="104"
+      height="142"
+    />
+
+    <hr />
+
+    <!--HTML Attributes-->
+    <h2>The href Attribute</h2>
+    <a href="https://www.w3schools.com">Visit W3Schools</a>
+
+    <h2>The src Attribute</h2>
+    <img src="img_girl.jpg" width="500" height="600" />
+
+    <h2>Width and Height Attributes</h2>
+    <img src="img_girl.jpg" width="500" height="600" />
+
+    <h2>The alt Attribute</h2>
+    <img src="img_grl.jpg" alt="Girl with a jacket" width="500" height="600" />
+
+    <h2>The style Attribute</h2>
+    <p style="color: red">This is a red paragraph.</p>
+
+    <h2 title="I'm a header">The title Attribute</h2>
+    <p title="selva">hello</p>
+    <hr />
+    <h2>Image Maps</h2>
+
+    <img
+      src="workplace.jpg"
+      alt="Workplace"
+      usemap="#workmap"
+      width="400"
+      height="379"
+    />
+
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="Computer"
+        href="computer.htm"
+      />
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        alt="Phone"
+        href="phone.htm"
+      />
+      <area
+        shape="circle"
+        coords="337,300,44"
+        alt="Cup of coffee"
+        href="coffee.htm"
+      />
+    </map>
+    <hr />
+    <h2>The picture Element</h2>
+
+    <picture>
+      <source media="(min-width: 650px)" srcset="img_food.jpg" />
+      <source media="(min-width: 465px)" srcset="img_car.jpg" />
+      <img src="img_girl.jpg" style="width: auto" />
+    </picture>
+    <hr />
+
+    <h2>Text Formating</h2>
+    <p><b>This text is bold</b></p>
+    <strong>This text is important!</strong>
+    <em>This text is emphasized</em>
+    <small>This is some smaller text.</small>
+    <p>My favorite color is <del>blue</del> red.</p>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <p><i>This text is italic</i></p>
+    <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+    <hr />
+
+    <h2>HTML for blockQuotations</h2>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      For 50 years, WWF has been protecting the future of nature. The world's
+      leading conservation organization, WWF works in 100 countries and is
+      supported by 1.2 million members in the United States and close to 5
+      million globally.
+    </blockquote>
+    <h2>Quotation</h2>
+    <p>
+      WWF's goal is to:
+      <q>Build a future where people live in harmony with nature.</q>
+    </p>
+    <h2>html for Abbreviations</h2>
+    <p>
+      The <abbr title="World Health Organization">WHO</abbr> was founded in
+      1948.
+    </p>
+    <h2>html for Contact Information</h2>
+    <address>
+      Written by John Doe.<br />
+      Visit us at:<br />
+      Example.com<br />
+      Box 564, Disneyland<br />
+      USA
+    </address>
+    <h2>html for Work Title</h2>
+    <img src="img_the_scream.jpg" width="220" height="277" alt="The Scream" />
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    <h2>HTML for Bi-Directional Override</h2>
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+    <hr />
+
+    <h2>HTML Links</h2>
+    <p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
+
+    <h2>The target Attribute</h2>
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https://www.google.com/">Google</a></p>
+
+    <h2>Relative URLs</h2>
+    <p><a href="html_images.asp">HTML Images</a></p>
+    <p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+    <h2>Image as a Link</h2>
+    <a href="default.asp"
+      ><img
+        src="smiley.gif"
+        alt="HTML tutorial"
+        style="width: 42px; height: 42px"
+    /></a>
+
+    <h2>Link to an Email Address</h2>
+    <p><a href="mailto:someone@example.com">Send email</a></p>
+
+    <h2>Button as a Links</h2>
+    <button onclick="document.location='default.asp'">HTML Tutorial</button>
+    <hr />
+
+    <h2>HTML Table</h2>
+
+    <table style="border: 1px solid black">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+      </tr>
+    </table>
+    <hr />
+
+    <h2>An Unordered HTML List</h2>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <h2>An Ordered HTML List</h2>
+
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <h2>A Description List</h2>
+    <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+    <hr />
+
+    <h2>Block-level Elements</h2>
+    <div style="background-color: black; color: white; padding: 20px">
+      <h2>London</h2>
+      <p>
+        London is the capital city of England. It is the most populous city in
+        the United Kingdom, with a metropolitan area of over 13 million
+        inhabitants.
+      </p>
+      <p>
+        Standing on the River Thames, London has been a major settlement for two
+        millennia, its history going back to its founding by the Romans, who
+        named it Londinium.
+      </p>
+    </div>
+
+    <h2>Inline</h2>
+
+    <p>
+      My mother has
+      <span style="color: blue; font-weight: bold">blue</span> eyes and my
+      father has
+      <span style="color: darkolivegreen; font-weight: bold">dark green</span>
+      eyes.
+    </p>
+    <hr />
+
+    <h2>The class Attribute</h2>
+    <div class="city">
+      <h2>London</h2>
+      <p>London is the capital of England.</p>
+    </div>
+
+    <div class="city">
+      <h2>Paris</h2>
+      <p>Paris is the capital of France.</p>
+    </div>
+    <hr />
+
+    <h2>The id Attribute</h2>
+
+    <h1 id="myHeader">My Header</h1>
+    <hr />
+
+    <h2>HTML Iframes</h2>
+    <iframe
+      src="demo_iframe.htm"
+      height="200"
+      width="300"
+      title="Iframe Example"
+    ></iframe>
+    <hr />
+    <h2>Iframe - Target for a Link</h2>
+
+    <iframe
+      src="demo_iframe.htm"
+      name="iframe_a"
+      height="300px"
+      width="100%"
+      title="Iframe Example"
+    ></iframe>
+
+    <p>
+      <a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a>
+    </p>
+    <hr />
+
+    <h2>Computer Code</h2>
+    <p>Some programming code:</p>
+    <code> x = 5; y = 6; z = x + y; </code>
+    <hr />
+
+    <h2>The kbd Element</h2>
+    <p>The kbd element is used to define keyboard input:</p>
+    <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+    <hr />
+
+    <h2>The samp Element</h2>
+    <p>
+      The samp element is used to define sample output from a computer program.
+    </p>
+    <p>Message from my computer:</p>
+    <p>
+      <samp>File not found.<br />Press F1 to continue</samp>
+    </p>
+    <hr />
+
+    <h2>The var Element</h2>
+    <p>
+      The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where
+      <var>b</var> is the base, and <var>h</var> is the vertical height.
+    </p>
+    <hr />
+
+    <h1>Semantic Elements in HTML</h1>
+    <h2>HTML section Element</h2>
+    <section>
+      <h1>WWF</h1>
+      <p>
+        The World Wide Fund for Nature (WWF) is an international organization
+        working on issues regarding the conservation, research and restoration
+        of the environment, formerly named the World Wildlife Fund. WWF was
+        founded in 1961.
+      </p>
+    </section>
+
+    <section>
+      <h1>WWF's Panda symbol</h1>
+      <p>
+        The Panda has become the symbol of WWF. The well-known panda logo of WWF
+        originated from a panda named Chi Chi that was transferred from the
+        Beijing Zoo to the London Zoo in the same year of the establishment of
+        WWF.
+      </p>
+    </section>
+
+    <hr />
+
+    <h2>HTML article Element</h2>
+
+    <article>
+      <h2>Google Chrome</h2>
+      <p>
+        Google Chrome is a web browser developed by Google, released in 2008.
+        Chrome is the world's most popular web browser today!
+      </p>
+    </article>
+
+    <article>
+      <h2>Mozilla Firefox</h2>
+      <p>
+        Mozilla Firefox is an open-source web browser developed by Mozilla.
+        Firefox has been the second most popular web browser since January,
+        2018.
+      </p>
+    </article>
+    <hr />
+
+    <h2>HTML header Element</h2>
+    <article>
+      <header>
+        <h1>What Does WWF Do?</h1>
+        <p>WWF's mission:</p>
+      </header>
+      <p>
+        WWF's mission is to stop the degradation of our planet's natural
+        environment, and build a future in which humans live in harmony with
+        nature.
+      </p>
+    </article>
+    <hr />
+
+    <h2>htmll footer element</h2>
+    <footer>
+      <p>Author: Hege Refsnes</p>
+      <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+    <hr />
+
+    <h2>html nav elemenent</h2>
+    <nav>
+      <a href="/html/">HTML</a> | <a href="/css/">CSS</a> |
+      <a href="/js/">JavaScript</a> |
+      <a href="/jquery/">jQuery</a>
+    </nav>
+    <hr />
+
+    <h2>aside element</h2>
+
+    <aside>
+      <h4>Epcot Center</h4>
+      <p>
+        Epcot is a theme park at Walt Disney World Resort featuring exciting
+        attractions, international pavilions, award-winning fireworks and
+        seasonal special events.
+      </p>
+    </aside>
+    <hr />
+
+    <h2>HTML figure and figcaption Elements</h2>
+    <figure>
+      <img src="pic_trulli.jpg" alt="Trulli" />
+      <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
+    </figure>
+    <hr />
+
+    <h2>HTML Entities</h2>
+    <p>The less-than sign: &lt;</p>
+
+    <h2>HTML Symbol Entities</h2>
+    <p>I will display &euro;</p>
+
+    <h3>Emoji Characters</h3>
+    <p>&#128512;</p>
+    <hr />
+
+    <h2>HTML Forms</h2>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>Text input fields</h2>
+    <form>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" />
+    </form>
+
+    <h2>Radio Buttons</h2>
+    <p>Choose your favorite Web language:</p>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML" />  
+      <label for="html">HTML</label><br />
+        <input type="radio" id="css" name="fav_language" value="CSS" />  
+      <label for="css">CSS</label><br />
+       
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+        <label for="javascript">JavaScript</label>
+    </form>
+
+    <h2>Checkboxes</h2>
+    <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+    <form action="/action_page.php">
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> I have a boat</label><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <hr />
+
+    <h2>canvas</h2>
+    <canvas
+      id="myCanvas"
+      width="200"
+      height="100"
+      style="border: 1px solid #000000"
+    >
+      Your browser does not support the HTML canvas tag.
+    </canvas>
+    <hr />
+
+    <h2>video</h2>
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4" />
+      <source src="movie.ogg" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video>
+    <hr />
+
+    <h2>audio</h2>
+    <audio controls>
+      <source src="horse.ogg" type="audio/ogg" />
+      <source src="horse.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+</html>
