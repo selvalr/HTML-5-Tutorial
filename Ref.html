@@ -53,7 +53,6 @@
       width="104"
       height="142"
     />
-
     <hr />
 
     <!--HTML Attributes-->
@@ -75,8 +74,9 @@
     <h2 title="I'm a header">The title Attribute</h2>
     <p title="selva">hello</p>
     <hr />
-    <h2>Image Maps</h2>
 
+    <!--image maps-->
+    <h2>Image Maps</h2>
     <img
       src="workplace.jpg"
       alt="Workplace"
@@ -106,8 +106,9 @@
       />
     </map>
     <hr />
-    <h2>The picture Element</h2>
 
+    <!--Picture-->
+    <h2>The picture Element</h2>
     <picture>
       <source media="(min-width: 650px)" srcset="img_food.jpg" />
       <source media="(min-width: 465px)" srcset="img_car.jpg" />
@@ -115,6 +116,7 @@
     </picture>
     <hr />
 
+    <!--Text Formating-->
     <h2>Text Formating</h2>
     <p><b>This text is bold</b></p>
     <strong>This text is important!</strong>
@@ -127,6 +129,7 @@
     <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
     <hr />
 
+    <!--BlockQuates-->
     <h2>HTML for blockQuotations</h2>
     <blockquote cite="http://www.worldwildlife.org/who/index.html">
       For 50 years, WWF has been protecting the future of nature. The world's
@@ -134,16 +137,20 @@
       supported by 1.2 million members in the United States and close to 5
       million globally.
     </blockquote>
+
     <h2>Quotation</h2>
     <p>
       WWF's goal is to:
       <q>Build a future where people live in harmony with nature.</q>
     </p>
+
     <h2>html for Abbreviations</h2>
     <p>
       The <abbr title="World Health Organization">WHO</abbr> was founded in
       1948.
     </p>
+
+    <!--address-->
     <h2>html for Contact Information</h2>
     <address>
       Written by John Doe.<br />
@@ -152,13 +159,16 @@
       Box 564, Disneyland<br />
       USA
     </address>
+
     <h2>html for Work Title</h2>
     <img src="img_the_scream.jpg" width="220" height="277" alt="The Scream" />
     <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
     <h2>HTML for Bi-Directional Override</h2>
     <bdo dir="rtl">This text will be written from right to left</bdo>
     <hr />
 
+    <!--Link-->
     <h2>HTML Links</h2>
     <p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
 
@@ -169,7 +179,7 @@
     <p><a href="https://www.w3.org/">W3C</a></p>
     <p><a href="https://www.google.com/">Google</a></p>
 
-    <h2>Relative URLs</h2>
+    <h2>Relative URLS</h2>
     <p><a href="html_images.asp">HTML Images</a></p>
     <p><a href="/css/default.asp">CSS Tutorial</a></p>
 
@@ -188,8 +198,8 @@
     <button onclick="document.location='default.asp'">HTML Tutorial</button>
     <hr />
 
+    <!--Table-->
     <h2>HTML Table</h2>
-
     <table style="border: 1px solid black">
       <tr>
         <th>Company</th>
@@ -229,6 +239,7 @@
     </table>
     <hr />
 
+    <!--list-->
     <h2>An Unordered HTML List</h2>
     <ul>
       <li>Coffee</li>
@@ -237,7 +248,6 @@
     </ul>
 
     <h2>An Ordered HTML List</h2>
-
     <ol>
       <li>Coffee</li>
       <li>Tea</li>
@@ -253,6 +263,7 @@
     </dl>
     <hr />
 
+    <!--Blocklevel-->
     <h2>Block-level Elements</h2>
     <div style="background-color: black; color: white; padding: 20px">
       <h2>London</h2>
@@ -269,7 +280,6 @@
     </div>
 
     <h2>Inline</h2>
-
     <p>
       My mother has
       <span style="color: blue; font-weight: bold">blue</span> eyes and my
@@ -279,23 +289,24 @@
     </p>
     <hr />
 
+    <!--class-->
     <h2>The class Attribute</h2>
     <div class="city">
       <h2>London</h2>
       <p>London is the capital of England.</p>
     </div>
-
     <div class="city">
       <h2>Paris</h2>
       <p>Paris is the capital of France.</p>
     </div>
     <hr />
 
+    <!--ID-->
     <h2>The id Attribute</h2>
-
     <h1 id="myHeader">My Header</h1>
     <hr />
 
+    <!--iframe-->
     <h2>HTML Iframes</h2>
     <iframe
       src="demo_iframe.htm"
@@ -304,8 +315,9 @@
       title="Iframe Example"
     ></iframe>
     <hr />
-    <h2>Iframe - Target for a Link</h2>
 
+    <!--Iframe-->
+    <h2>Iframe - Target for a Link</h2>
     <iframe
       src="demo_iframe.htm"
       name="iframe_a"
@@ -313,22 +325,23 @@
       width="100%"
       title="Iframe Example"
     ></iframe>
-
     <p>
       <a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a>
     </p>
     <hr />
 
+    <!--computer code-->
     <h2>Computer Code</h2>
     <p>Some programming code:</p>
     <code> x = 5; y = 6; z = x + y; </code>
     <hr />
 
+    <!--shotcut key-->
     <h2>The kbd Element</h2>
     <p>The kbd element is used to define keyboard input:</p>
     <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
     <hr />
-
+    <!--samp-->
     <h2>The samp Element</h2>
     <p>
       The samp element is used to define sample output from a computer program.
@@ -339,6 +352,7 @@
     </p>
     <hr />
 
+    <!--var-->
     <h2>The var Element</h2>
     <p>
       The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where
@@ -346,6 +360,14 @@
     </p>
     <hr />
 
+    <!--Div-->
+    <div>
+      <h2>This is a heading in a div element</h2>
+      <p>This is some text in a div element.</p>
+    </div>
+    <hr />
+
+    <!--section-->
     <h1>Semantic Elements in HTML</h1>
     <h2>HTML section Element</h2>
     <section>
@@ -367,11 +389,10 @@
         WWF.
       </p>
     </section>
-
     <hr />
 
+    <!--article-->
     <h2>HTML article Element</h2>
-
     <article>
       <h2>Google Chrome</h2>
       <p>
@@ -379,7 +400,6 @@
         Chrome is the world's most popular web browser today!
       </p>
     </article>
-
     <article>
       <h2>Mozilla Firefox</h2>
       <p>
@@ -390,6 +410,7 @@
     </article>
     <hr />
 
+    <!--header-->
     <h2>HTML header Element</h2>
     <article>
       <header>
@@ -404,6 +425,7 @@
     </article>
     <hr />
 
+    <!--footer-->
     <h2>htmll footer element</h2>
     <footer>
       <p>Author: Hege Refsnes</p>
@@ -411,6 +433,7 @@
     </footer>
     <hr />
 
+    <!--navbar-->
     <h2>html nav elemenent</h2>
     <nav>
       <a href="/html/">HTML</a> | <a href="/css/">CSS</a> |
@@ -419,8 +442,8 @@
     </nav>
     <hr />
 
+    <!--Aside-->
     <h2>aside element</h2>
-
     <aside>
       <h4>Epcot Center</h4>
       <p>
@@ -431,6 +454,7 @@
     </aside>
     <hr />
 
+    <!--figure-->
     <h2>HTML figure and figcaption Elements</h2>
     <figure>
       <img src="pic_trulli.jpg" alt="Trulli" />
@@ -438,6 +462,7 @@
     </figure>
     <hr />
 
+    <!--Entities-->
     <h2>HTML Entities</h2>
     <p>The less-than sign: &lt;</p>
 
@@ -448,6 +473,7 @@
     <p>&#128512;</p>
     <hr />
 
+    <!--form-->
     <h2>HTML Forms</h2>
     <form action="/action_page.php">
       <label for="fname">First name:</label><br />
@@ -457,6 +483,7 @@
       <input type="submit" value="Submit" />
     </form>
 
+    <!--input-->
     <h2>Text input fields</h2>
     <form>
       <label for="fname">First name:</label><br />
@@ -465,23 +492,67 @@
       <input type="text" id="lname" name="lname" value="Doe" />
     </form>
 
+    <!--select-->
+    <h2>The select Element</h2>
+    <form action="/action_page.php">
+      <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+      <input type="submit" />
+    </form>
+
+    <!--textarea-->
+    <textarea name="message" rows="10" cols="30">
+      The cat was playing in the garden.
+      </textarea
+    >
+
+    <!--Fieldset & Legend-->
+    <form action="/action_page.php">
+      <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="John" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+
+    <!--Datalist-->
+    <form action="/action_page.php">
+      <input list="browsers" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+    </form>
+
+    <!--Radio-->
     <h2>Radio Buttons</h2>
     <p>Choose your favorite Web language:</p>
     <form>
-        <input type="radio" id="html" name="fav_language" value="HTML" />  
+      <input type="radio" id="html" name="fav_language" value="HTML" />
       <label for="html">HTML</label><br />
-        <input type="radio" id="css" name="fav_language" value="CSS" />  
+      <input type="radio" id="css" name="fav_language" value="CSS" />
       <label for="css">CSS</label><br />
-       
       <input
         type="radio"
         id="javascript"
         name="fav_language"
         value="JavaScript"
       />
-        <label for="javascript">JavaScript</label>
+      <label for="javascript">JavaScript</label>
     </form>
 
+    <!--checkbox-->
     <h2>Checkboxes</h2>
     <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
     <form action="/action_page.php">
@@ -493,9 +564,9 @@
       <label for="vehicle3"> I have a boat</label><br /><br />
       <input type="submit" value="Submit" />
     </form>
-
     <hr />
 
+    <!--canvas-->
     <h2>canvas</h2>
     <canvas
       id="myCanvas"
@@ -507,6 +578,7 @@
     </canvas>
     <hr />
 
+    <!--video tag-->
     <h2>video</h2>
     <video width="320" height="240" controls>
       <source src="movie.mp4" type="video/mp4" />
@@ -515,6 +587,7 @@
     </video>
     <hr />
 
+    <!--audio tag-->
     <h2>audio</h2>
     <audio controls>
       <source src="horse.ogg" type="audio/ogg" />
