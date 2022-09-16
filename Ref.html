@@ -35,10 +35,11 @@
     <p>This is a paragraph.</p>
     <p>This is another paragraph.</p>
     <p>
-      This is a <br />
+      This is a <br /><!--break tag is currentline break-->
       paragraph with a line break.
     </p>
     <hr />
+    <!--herizondal tag is a line created -->
 
     <!--HTML Link-->
     <h2>HTML Link</h2>
@@ -119,6 +120,7 @@
     <!--Text Formating-->
     <h2>Text Formating</h2>
     <p><b>This text is bold</b></p>
+    <p><u>This text is underline</u></p>
     <strong>This text is important!</strong>
     <em>This text is emphasized</em>
     <small>This is some smaller text.</small>
@@ -168,7 +170,7 @@
     <bdo dir="rtl">This text will be written from right to left</bdo>
     <hr />
 
-    <!--Link-->
+    <!--Links-->
     <h2>HTML Links</h2>
     <p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
 
@@ -201,41 +203,45 @@
     <!--Table-->
     <h2>HTML Table</h2>
     <table style="border: 1px solid black">
-      <tr>
-        <th>Company</th>
-        <th>Contact</th>
-        <th>Country</th>
-      </tr>
-      <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
-      </tr>
-      <tr>
-        <td>Centro comercial Moctezuma</td>
-        <td>Francisco Chang</td>
-        <td>Mexico</td>
-      </tr>
-      <tr>
-        <td>Ernst Handel</td>
-        <td>Roland Mendel</td>
-        <td>Austria</td>
-      </tr>
-      <tr>
-        <td>Island Trading</td>
-        <td>Helen Bennett</td>
-        <td>UK</td>
-      </tr>
-      <tr>
-        <td>Laughing Bacchus Winecellars</td>
-        <td>Yoshi Tannamuri</td>
-        <td>Canada</td>
-      </tr>
-      <tr>
-        <td>Magazzini Alimentari Riuniti</td>
-        <td>Giovanni Rovelli</td>
-        <td>Italy</td>
-      </tr>
+      <head>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+      </head>
+      <body>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+        <tr>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+          <td>Austria</td>
+        </tr>
+        <tr>
+          <td>Island Trading</td>
+          <td>Helen Bennett</td>
+          <td>UK</td>
+        </tr>
+        <tr>
+          <td>Laughing Bacchus Winecellars</td>
+          <td>Yoshi Tannamuri</td>
+          <td>Canada</td>
+        </tr>
+        <tr>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>Italy</td>
+        </tr>
+      </body>
     </table>
     <hr />
 
@@ -473,7 +479,7 @@
     <p>&#128512;</p>
     <hr />
 
-    <!--form-->
+    <!--Forms-->
     <h2>HTML Forms</h2>
     <form action="/action_page.php">
       <label for="fname">First name:</label><br />

@@ -131,9 +131,9 @@ The title Attribute
 
 # 7.Form based Elements
 
-<input>---><input type="text" id="fname" name="fname">
-<label>---><label for="cars">Choose a car:</label>
-<select>---><select id="cars" name="cars">
+<input> --->  <input type="text" id="fname" name="fname">
+<label> --->  <label for="cars">Choose a car:</label>
+<select> ---> <select id="cars" name="cars">
 
 <option value="volvo">Volvo</option>
 <option value="saab">Saab</option>
