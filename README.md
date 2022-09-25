@@ -18,6 +18,10 @@
 - Since the early days of the World Wide Web, there have been many versions of HTML:
 - 1989 ==> Tim Berners-Lee invented www
 
+# Basic CheetSheet
+
+![html5 cheetaheet!](./html.jpg "read html")
+
 ### Tag syntax
 
 ````bash
@@ -26,6 +30,7 @@
 - URL uniform Resource Location
 - http hypertext transfer protocal
 - DOM Docment Object Model
+
 
 
 # HTML5 RoadMap
