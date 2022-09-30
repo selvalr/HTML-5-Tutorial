@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--title name-->
     <title>Title page</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <!--Link is a relevent resource-->
     <link rel="stylesheet" href="style.css" />
     <!--style resource-->
@@ -207,52 +209,121 @@
     <h2>Link to an Email Address</h2>
     <p><a href="mailto:someone@example.com">Send email</a></p>
 
+    <h2>Download</h2>
+    <a href="http://example.com/file.ext" download="Example_File"
+      >download a file</a
+    >
+
     <h2>Button as a Links</h2>
     <button onclick="document.location='default.asp'">HTML Tutorial</button>
     <hr />
 
     <!--Table-->
     <h2>HTML Table</h2>
-    <table style="border: 1px solid black">
-      <head>
+    <table>
+      <caption>
+        <!--caption comment-->
+        The Three Most Popular JavaScript Libraries
+      </caption>
+      <thead>
+        <!--table head is a two heading to use -->
         <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
+          <th>Library</th>
+          <th>jQuery</th>
+          <th>Bootstrap</th>
+          <th>Modernizr</th>
         </tr>
-      </head>
-      <body>
+      </thead>
+      <tbody>
+        <!--table body-->
         <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
-        </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
-        </tr>
-        <tr>
-          <td>Ernst Handel</td>
-          <td>Roland Mendel</td>
-          <td>Austria</td>
+          <td>Market Share</td>
+          <td>96.1%</td>
+          <td>17.0%</td>
+          <td>14.3%</td>
         </tr>
         <tr>
-          <td>Island Trading</td>
-          <td>Helen Bennett</td>
-          <td>UK</td>
+          <td>Absolute Usage</td>
+          <td>70.4%</td>
+          <td>12.4%</td>
+          <td>10.5%</td>
         </tr>
+      </tbody>
+      <tfoot>
+        <!--table footer-->
         <tr>
-          <td>Laughing Bacchus Winecellars</td>
-          <td>Yoshi Tannamuri</td>
-          <td>Canada</td>
+          <td colspan="4">
+            <!--colspan is a column space cell-->
+            <em>Market Share</em> refers to the percentage of sites using any
+            JavaScript library that use the specified library.
+            <em>Absolute Usage</em> is the percent of websites surveyed,
+            including those that use no JavaScript libraries, that use the
+            specified library. All data comes from
+            <a
+              href="https://w3techs.com/technologies/overview/javascript_library/all"
+              target="_blank"
+              >W3Techs</a
+            >
+            and was accurate in June of 2016.
+          </td>
         </tr>
-        <tr>
-          <td>Magazzini Alimentari Riuniti</td>
-          <td>Giovanni Rovelli</td>
-          <td>Italy</td>
-        </tr>
-      </body>
+      </tfoot>
+    </table>
+    <hr />
+
+    <h2>Multiple Col Elements</h2>
+    <p>Add multiple col elements in the colgroup:</p>
+
+    <table style="width: 100%">
+      <colgroup>
+        <col span="2" style="background-color: #d6eeee" />
+        <col span="3" style="background-color: pink" />
+      </colgroup>
+      <tr>
+        <th>MON</th>
+        <th>TUE</th>
+        <th>WED</th>
+        <th>THU</th>
+        <th>FRI</th>
+        <th>SAT</th>
+        <th>SUN</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+      </tr>
     </table>
     <hr />
 
@@ -384,6 +455,7 @@
     </div>
     <hr />
 
+    <!--semantic Element-->
     <!--section-->
     <h1>Semantic Elements in HTML</h1>
     <h2>HTML section Element</h2>
