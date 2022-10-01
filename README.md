@@ -114,6 +114,21 @@ The title Attribute
 <p title="I'm a tooltip">This is a paragraph.</p>
 
 # 3.Empty/void element
+This tag is not a closing tag:<img>,<input>
+
+area,
+base,
+br,
+col,
+hr,
+img,
+input,
+link,
+meta,
+param,
+command,
+keygen,
+source,
 
 # 4.Heading Element
 
