@@ -248,6 +248,8 @@ The cat was playing in the garden.
 
 # 11.Image
 
+<img src="dove.png" alt="dove" width=100px>
+
 # 12.Lists
 
 <ul>
@@ -307,6 +309,9 @@ The cat was playing in the garden.
 
 # 15.id class
 
+<div class="name"></div>
+<p id="hlo"></p>
+
 # 16.include style
 
 Inline - by using the style attribute inside HTML elements
@@ -342,6 +347,42 @@ Scripts can be placed in the <body>, or in the <head> section of an HTML page, o
 
 
 <---2.audio--->
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<---3.video--->
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+<---4.map--->
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+<---5.object--->
+
+<h1>The object element</h1>
+
+<object data="pic_trulli.jpg" width="300" height="200"></object>
+
+<--6.embed--->
+
+<h1>The embed element</h1>
+
+<embed type="image/jpg" src="pic_trulli.jpg" width="300" height="200">
 
 ### Basic Commands
 
