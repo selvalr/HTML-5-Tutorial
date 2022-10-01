@@ -345,7 +345,7 @@ Scripts can be placed in the <body>, or in the <head> section of an HTML page, o
 
 ### Basic Commands
 
-```bash
+
 <!DOCTYPE html> #html5 this page is a doucment of htmll
 <html lang="en"></html> # element is the root element of an HTML page
 <head></head> #the head of the html elemet
