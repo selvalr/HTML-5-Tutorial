@@ -384,6 +384,14 @@ Your browser does not support the video tag.
 
 <embed type="image/jpg" src="pic_trulli.jpg" width="300" height="200">
 
+* Advanced Topics *
+
+1.SEO
+2.Accessibility
+3.Responsiveness
+4.Perfomance
+
+
 ### Basic Commands
 
 
