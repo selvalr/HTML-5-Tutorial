@@ -293,19 +293,19 @@ The cat was playing in the garden.
 
 # 14.Semetic element
 
-<article>
-<aside>
-<details>
-<figcaption>
-<figure>
-<footer>
-<header>
-<main>
-<mark>
-<nav>
-<section>
-<summary>
-<time>
+<article> # Forum post,Blog posts,user comment,Product card,Newspaper article
+<aside> #side bar
+<details> #defines additional details that the user can view or hide (like accordin)
+<figcaption> #caption for figure element
+<figure> #for Image,diagram
+<footer> # copyright information,contact information,sitemap,back to top link, related doucment
+<header> #Logo,main page navigation menu
+<main> # main content of doucment should be enclosed within main tag
+<mark> # define marked/highlighted text
+<nav> # set of navigation link,Inside Header we can Place nav for menu
+<section> # Chapter,Introduction News item,Contact information
+<summary> #defines a visible heading for a detais element(like accordin title)
+<time> # Defines a date/time
 
 # 15.id class
 
