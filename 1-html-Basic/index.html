@@ -1,125 +1,679 @@
+<!--declaration defines that this document is an HTML5 document-->
 <!DOCTYPE html>
+<!-- the root element of an HTML page-->
+<!--The lang Attribute-->
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--element contains meta information about the HTML page-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Setting The Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--a title for the HTML page-->
     <title>Basic Html</title>
-    <style>
-        img {
-            width: 100px;
-            border-radius: 40px;
-            float: right;
-            margin-right: 200px;
-        }
-    </style>
-</head>
+    <!--base tag-->
+    <base  href="https://media.geeksforgeeks.org/wp-content/uploads/"
+        target="_blank" />
 
-<body>
+    <!--How To Add a Favicon in HTML-->
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <style>
+      img {
+        width: 100px;
+        border-radius: 40px;
+        float: right;
+        margin-right: 200px;
+      }
+    </style>
+  </head>
+  <!--element defines the document's body,-->
+  <body>
+    <!--base tag access-->
+    <img src="1-95.jpg" width="400" height="250" />
+
+
     <!-- heading tag-->
     <h1>welcome</h1>
     <h2>welcome</h2>
     <h3>welcome</h3>
-    <h4>welcome</h5>
-        <h5>welcome</h6>
-          
-            <!-- image tag-->
-            <img src="./1.jpg" alt="imag">
-            <!--paragraph-->
-            <p id="first">Lorem ipsum dolor sit amet consectetur<br>
-                <!--break line--> adipisicing elit. Cupiditate, delectus. Impedit iure
-                doloremque
-                ipsam tenetur sed <em>hai selva</em>
-                <!--emphres text-->officiis distinctio quibusdam dolor dolores laboriosam nobis
-                provident amet fugit,
-                soluta laudantium. Nam, doloremque!
+    <h4>welcome</h4>
+    <h5>welcome</h5>
+    <h6>welcome</h6>
 
-            </p>
-            <p>jhdfhdfhbdhg</p>
-            <!-- attribute-->
+    <!-- image tag-->
+    <!--The src Attribute alt and height width attribute-->
+    <img src="./1.jpg" alt="imag" />
+    <!--paragraph-->
+    <p id="first">
+      Lorem ipsum dolor sit amet consectetur<br />
+      <!--break line-->
+      adipisicing elit. Cupiditate, delectus. Impedit iure doloremque ipsam
+      tenetur sed <em>hai selva</em>
+      <!--emphres text-->officiis distinctio quibusdam dolor dolores laboriosam
+      nobis provident amet fugit, soluta laudantium. Nam, doloremque!
+    </p>
+    <p>jhdfhdfhbdhg</p>
 
-            <a href="http://www.google.com">welcome</a>
-            <a href="#first">parage </a>
-            <abbr title="Hyper Text Markup Language">HTML</abbr>
-            <input type="text" value="John Doe">
+    <!--The style Attribute-->
+    <p style="color: red">This is a red paragraph.</p>
 
-            <b style="border: 1px solid red;">text is bold</b>
-            <strong>text is strong</strong>
-            <i>text is italic style</i>
-            <em>text is emphrase style</em>
-            <h2>hello selva <small>text small</small> to html</h2>
-            <h2>welcome to <mark>maked selva</mark></h2>
-            <p>my favorite color is <del>red</del>blue</p>
-            <p>hai how ar u <ins>inserted word</ins>hbf</p>
-            <p>hai <sub>subscripted</sub>text</p>
-            <p>this is <sup>superscripted</sup>word</p>
+    <!--href attribute HTML Links-->
 
-            <!--Video & Audio file html5-->
+    <a href="http://www.google.com">welcome</a>
+    <a href="#first">parage </a>
 
-            <video src="./Kadhal mannana neeyum kannana.mp4" height="500px" width="400px" controls></video>
-            <audio src="./Yuvan Bgm.mp3" height="0px" width="0px" controls></audio>
+    <!--The title Attribute in Abbrevation-->
+    <p title='John "ShotGun" Nelson'>
+      <abbr title="Hyper Text Markup Language">HTML</abbr>
 
-            <!--Tables-->
+  
+ <!--Big Tag-->
+ <big>This is big Tag text</big>
 
-            <table border="1px">
-                <tr>
-                    <th>1</th>
-                </tr>
-                <tr>
-                    <td>hai</td>
-                </tr>
-            </table>
+  <!--HTML Horizontal Rules-->
+  <hr>
 
-<!--Form-->
-            <form class="frm">
-                <fieldset>
-                    <legend>login</legend>
-                    <label>uname</label>
-                    <input type="text"><br>
-                    <label>pass</label>
-                    <input type="password"><br>
-                    <label>sex</label>
-                    <input type="radio" name="gen">
-                    <label>male</label>
-                    <input type="radio" name="gen">
-                    <label>female</label>
-                    <label>country</label>
-                    <select>
-                        <option>ind</option>
-                        <option>aus</option>
-                    </select>
-                    <label>qualify</label>
-                    <input type="checkbox">
-                    <input type="submit">
+  <!--The HTML <pre> Element-->
+<pre>
+  My Bonnie lies over the ocean.
 
-                    <input type="email" required>
-                    <input type="submit" value="Submit" disabled>
-                    <input type="checkbox" checked>
-                    <input type="text" value="Read only text" readonly>
-                </fieldset>
-            </form>
-            <br>
-            <br>
-            <br>
+  My Bonnie lies over the sea.
 
-            <iframe src="index.html" height="800px" width="500px">
+  My Bonnie lies over the ocean.
 
-            </iframe>
+  Oh, bring back my Bonnie to me.
+</pre>
+
+<!--The HTML Style Attribute-->
+<p style="color:red;">I am red</p>
 
 
-            <!--list-->
-            <ul>
-                <li>dhoni</li>
-                <li>virat</li>
-                <li>yuvi</li>
-            </ul>
-            <ol>
-                <li>cric</li>
-                <li>foot</li>
-                <li>volly</li>
-            </ol>
+<!--HTML Text Formatting-->
+<!--Bold and Strong-->
+<p><b>This text is bold</b>is <strong>strong is same</strong></p>
+<!--Italic and empherses-->
+<p><i>This text is italic</i>is <em>same is i</em></p>
+<!--sub and sup element-->
+<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+<!--small-->
+<small>This is some smaller text.</small>
+<!--mark-->
+<p>Do not <s>strike</s>forget to buy <mark>milk</mark> today.</p>
+<!--delete-->
+<p>My favorite color is <del>blue</del> red.</p>
+<!--insert-->
+<p>My <u>def</u>favorite color is <del>blue</del> <ins>red</ins>.</p>
+<p>This is <sub>subscripted</sub> text.</p>
+<p>This is <sup>superscripted</sup> text.</p>
 
+  
+  
+<!--HTML Quotation and Citation Elements-->
+
+
+<!--HTML <blockquote> for Quotations-->
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+        </blockquote>
+
+<!--HTML <q> for Short Quotations-->
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+
+    <!--HTML <abbr> for Abbreviations-->
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<!--<address> for Contact Information-->
+    <address>
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+
+
+<!--HTML <cite> for Work Title-->
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+<!--HTML <bdo> for Bi-Directional Override-->
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+
+<!-- Write your comments here -->
+<!--  -->
+
+<!--Link to an Email Address-->
+<a href="mailto:someone@example.com">Send email</a>
+
+<!--Button as a Link-->
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+
+
+
+<!--Image Maps-->
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+<!--HTML picture element-->
+<picture>
+    <source media="(min-width: 650px)" srcset="img_food.jpg">
+    <source media="(min-width: 465px)" srcset="img_car.jpg">
+    <img src="img_girl.jpg">
+  </picture>
+
+
+
+  
+      <input type="text" value="John Doe" />
+
+      <b style="border: 1px solid red">text is bold</b>
+      <strong>text is strong</strong>
+      <i>text is italic style</i>
+      <em>text is emphrase style</em>
+    </p>
+
+    <h2>hello selva <small>text small</small> to html</h2>
+    <h2>welcome to <mark>maked selva</mark></h2>
+    <p>my favorite color is <del>red</del>blue</p>
+    <p>hai how ar u <ins>inserted word</ins>hbf</p>
+    <p>hai <sub>subscripted</sub>text</p>
+    <p>this is <sup>superscripted</sup>word</p>
+
+    <!--Video & Audio file html5-->
+
+    <video
+      src="./Kadhal mannana neeyum kannana.mp4"
+      height="500px"
+      width="400px"
+      controls
+    ></video>
+    <audio src="./Yuvan Bgm.mp3" height="0px" width="0px" controls></audio>
+
+    <!--Tables-->
+
+    <table border="1px">
+      <tr>
+        <th>1</th>
+      </tr>
+      <tr>
+        <td>hai</td>
+      </tr>
+    </table>
+
+    <!--HTML Table Borders-->
+
+    <!--Form-->
+    <form class="frm">
+      <fieldset>
+        <legend>login</legend>
+        <label>uname</label>
+        <input type="text" /><br />
+        <label>pass</label>
+        <input type="password" /><br />
+        <label>sex</label>
+        <input type="radio" name="gen" />
+        <label>male</label>
+        <input type="radio" name="gen" />
+        <label>female</label>
+        <label>country</label>
+        <select>
+          <option>ind</option>
+          <option>aus</option>
+        </select>
+        <label>qualify</label>
+        <input type="checkbox" />
+        <input type="submit" />
+
+        <input type="email" required />
+        <input type="submit" value="Submit" disabled />
+        <input type="checkbox" checked />
+        <input type="text" value="Read only text" readonly />
+      </fieldset>
+    </form>
+
+
+    <!--input-->
+    <input type="button">
+    <input type="checkbox">
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image">
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="reset">
+    <input type="search">
+    <input type="submit">
+    <input type="tel">
+    <input type="text">
+    <input type="time">
+    <input type="url">
+    <input type="week">
+
+    <!--HTML Input Attributes-->
+    <!--The value Attribute-->
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <!--The readonly Attribute-->
+    <input type="text" id="fname" name="fname" value="John" readonly><br>
+    <!--The disabled Attribute-->
+    <input type="text" id="fname" name="fname" value="John" disabled><br>
+    <!--The size Attribute-->
+    <input type="text" id="fname" name="fname" size="50"><br>
+    <!--The maxlength Attribute-->
+    <input type="text" id="fname" name="fname" size="50"><br>
+    <input type="text" id="fname" name="fname" size="50"><br>
+
+
+    <!--The min and max Attributes-->
+    <form>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+      
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+      
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+      </form>
+
+
+
+      <!--The multiple Attribute-->
+      <form>
+        <label for="files">Select files:</label>
+        <input type="file" id="files" name="files" multiple>
+      </form>
+
+      <!--The pattern Attribute-->
+      <form>
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code"
+        pattern="[A-Za-z]{3}" title="Three letter country code">
+      </form>
+
+    <!--The placeholder Attribute-->
+    <form>
+        <label for="phone">Enter a phone number:</label>
+        <input type="tel" id="phone" name="phone"
+        placeholder="123-45-678"
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      </form>
+
+      <!--The required Attribute-->
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </form>
+
+      <!--The step Attribute-->
+      <form>
+        <label for="points">Points:</label>
+        <input type="number" id="points" name="points" step="3">
+      </form>
+
+      <!--The autofocus Attribute-->
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" autofocus><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+      </form>
+
+
+      <!--The height and width Attributes-->
+      <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+      </form>
+
+      <!--The list Attribute-->
+      <form>
+        <input list="browsers">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+      </form>
+
+      <!--The autocomplete Attribute-->
+      <form action="/action_page.php" autocomplete="on">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" autocomplete="off"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+
+
+      <!--HTML Input form* Attributes-->
+      <form action="/action_page.php" id="form1">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" form="form1">
+
+
+      <!--The formaction Attribute   -->
+      <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+      </form>
+
+
+      <!--The formenctype Attribute-->
+      <form action="/action_page_binary.asp" method="post">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formenctype="multipart/form-data"
+        value="Submit as Multipart/form-data">
+      </form>
+
+      <!--The formmethod Attribute-->
+      <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit using GET">
+        <input type="submit" formmethod="post" value="Submit using POST">
+      </form>
+
+      <!--The formtarget Attribute-->
+      <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+      </form>
+
+      <!--The formnovalidate Attribute-->
+      <form action="/action_page.php">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formnovalidate="formnovalidate"
+        value="Submit without validation">
+      </form>
+
+      <!--The novalidate Attribute-->
+      <form action="/action_page.php" novalidate>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+<br>
+<br>
+<br>
+
+
+      <!--Canvas-->
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    Your browser does not support the HTML canvas tag.
+    </canvas>
+
+
+    <!--SVG-->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+      </svg>
+
+    <br />
+    <br />
+    <br />
+
+    <iframe src="index.html" height="800px" width="500px"> </iframe>
+
+    <!--list-->
+    <ul>
+      <li>dhoni</li>
+      <li>virat</li>
+      <li>yuvi</li>
+    </ul>
+
+    <ol>
+      <li>cric</li>
+      <li>foot</li>
+      <li>volly</li>
+    </ol>
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl>
+
+
+
+      <!--Block-level Elements-->
+      <!--
+      <address>
+        <article>
+        <aside>
+         <blockquote>
+        <canvas>
+        <dd>
+        <div>
+        <dl>
+        <dt>
+        <fieldset>
+        <figcaption>
+        <figure>
+         <footer>
+        <form>
+        <h1>-<h6>
+         <header>
+          <hr>
+          <li>
+          <main>
+         <nav>
+         <noscript>
+         <ol>
+         <p>
+        <pre>
+        <section>
+        <table>
+        <tfoot>
+        <ul>
+        <video>
+        -->
+
+        <!--Inline Elements-->
+
+        <!--
+<a><abbr><acronym><b><bdo><big><br><button><cite><code>
+<dfn><em><i><img><input><kbd><label><map><object><output><q>
+<samp><script><select><small><span><strong><sub><sup><textarea>
+<time><tt><var>
+        -->
+
+
+
+
+        <!--Iframe-->
+        <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+
+
+        <!--HTML Layout Elements or sematic-->
+        <!--
+<header>
+<nav>
+<section> 
+<article>
+<aside>
+<footer>
+<details>
+<summary>
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+-->
+
+
+        <!--code-->
+        <code>
+            x = 5;
+            y = 6;
+            z = x + y;
+            </code>
+
+        <!--Kbd-->
+        <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+
+        <!-- <samp> For Program Output-->
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+<!--var-->
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+
+<!--HTML Entities-->
+&#160;
+&#34;
+
+<!--HTML Symbol Entities-->
+<p>I will display &euro;</p>
+<p>I will display &#8364;</p>
+<p>I will display &#x20AC;</p>
+
+
+<!--Emoji-->
+<p>&#128512;</p>
+
+
+<!--VIDEO AUDIO-->
+<video width="320" height="240" autoplay muted>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video>
+
+  <audio controls>
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+
+
+  <!--The <object> Element-->
+    <object width="100%" height="500px" data="snippet.html"></object>
+
+    <!--The <embed> Element-->
+        <embed width="100%" height="500px" src="snippet.html">
+
+<!--progress-->
+            <progress value="33" max="100"></progress>
+
+
+            <!--optgroup-->
+            <select>
+                <optgroup label="Favorites A-C">
+                     <option value="American">American flamingo</option>
+                     <option value="Andean">Andean flamingo</option>
+                     <option value="Chilean">Chilean flamingo</option>
+                </optgroup>
+                <optgroup label="Favorites G-L">
+                     <option value="Greater">Greater flamingo</option>
+                     <option value="James's">James's flamingo</option>
+                     <option value="Lesser">Lesser flamingo</option>
+                </optgroup>
+           </select>
+
+<!--meter-->
+
+           <meter value="11" min="0" max="45" optimum="40">25 out of 45</meter> 
+
+
+           <!--RP Tag <rp>-->
+            <ruby>
+                漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+                字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+              </ruby>
+            <!--RT Tag <rt>-->
+                <ruby>
+                    漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+                    字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+                  </ruby>
+
+
+
+    <!--TIME Tag <time>-->
+        <p>The concert starts at <time>20:00</time>.</p>
+
+    <!--WBR Tag <wbr>-->
+    <p>http://this<wbr>.is<wbr>.a<wbr>.really<wbr>.long<wbr>.example<wbr>.com/With<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages</p>
+  
+
+
+<!--BUTTON Tag <button>-->
+    <button name="button">I am a button. Click me!</button>
+
+
+    <!--TextArea-->
+    <textarea name="textarea" rows="10" cols="50">Write something here</textarea>
+
+    <!--FIGCAPTION Tag   <figcaption>-->
+        <figure>
+            <img src="http://www.example.com/picture.png" alt="An awesome picture"> 
+            <figcaption>A picture</figcaption>
+          </figure>
+
+
+    <!--DETAILS Tag <details>-->
+        <details><summary>Some details</summary><p>More info about the details.</p></details>
+
+
+        <!--DIALOG Tag <dialog>-->
+            <dialog open>
+                <p>Greetings, one and all!</p>
+              </dialog>
+              
 </body>
-
 </html>
