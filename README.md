@@ -6,10 +6,11 @@
 - HTML was invented by Tim Berners-Lee in 1991.
 - HTML is used for creating web pages and web applications.
 - It is used to describe the structure of Web pages using markup tags.
+- With only HTML we can create a static website.
 
 ### HTML file?
 
-- Page in the internet (docment in the internet)
+- Page in the internet (document in the internet)
 - file end with a .html
 - index.html=abc.com
 
@@ -17,18 +18,18 @@
 
 - Since the early days of the World Wide Web, there have been many versions of HTML:
 - 1989 ==> Tim Berners-Lee invented www
-- 1991	Tim Berners-Lee invented HTML
-- 1993	Dave Raggett drafted HTML+
-- 1995	HTML Working Group defined HTML 2.0
-- 1997	W3C Recommendation: HTML 3.2
-- 1999	W3C Recommendation: HTML 4.01
-- 2000	W3C Recommendation: XHTML 1.0
-- 2008	WHATWG HTML5 First Public Draft
-- 2012	WHATWG HTML5 Living Standard
-- 2014	W3C Recommendation: HTML5
-- 2016	W3C Candidate Recommendation: HTML 5.1
-- 2017	W3C Recommendation: HTML5.1 2nd Edition
-- 2017	W3C Recommendation: HTML5.2
+- 1991 Tim Berners-Lee invented HTML
+- 1993 Dave Raggett drafted HTML+
+- 1995 HTML Working Group defined HTML 2.0
+- 1997 W3C Recommendation: HTML 3.2
+- 1999 W3C Recommendation: HTML 4.01
+- 2000 W3C Recommendation: XHTML 1.0
+- 2008 WHATWG HTML5 First Public Draft
+- 2012 WHATWG HTML5 Living Standard
+- 2014 W3C Recommendation: HTML5
+- 2016 W3C Candidate Recommendation: HTML 5.1
+- 2017 W3C Recommendation: HTML5.1 2nd Edition
+- 2017 W3C Recommendation: HTML5.2
 
 # Basic CheetSheet
 
@@ -36,7 +37,7 @@
 
 ### Tag syntax
 
-````bash
+```bash
 - <tag> opening tag
 - </tag> closing tag
 - URL uniform Resource Location
@@ -463,7 +464,7 @@ Your browser does not support the video tag.
 
 <iframe>#Defines an inline frame
 
-````
+```
 
 ### Block-element And Inlie
 

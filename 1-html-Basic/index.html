@@ -66,6 +66,13 @@
     <a href="http://www.google.com">welcome</a>
     <a href="#first">parage </a>
 
+    <!--Image and Anchor Tag in HTML-->
+    <img src="myImage.png" width="50px" height="50px" alt="raju_webdev image" title="I am raju Frontend Web Developer">
+    <a href="https://www.geekshelp.in" target="_blank"> Geeks Help </a>
+    <a href="mailto:contact.geekshelp.@gmail..com">Send email</a>
+    <a href="tel:+91123456789">123456789</a>
+    <a href="#section">Go to Section</a>
+
     <!--The title Attribute in Abbrevation-->
     <p title='John "ShotGun" Nelson'>
       <abbr title="Hyper Text Markup Language">HTML</abbr>
@@ -211,6 +218,62 @@
       </tr>
     </table>
 
+    <table>
+      <thead>
+          <th> Sr. No. </th>
+          <th> Name </th>
+          <th> Role </th>
+          <th> Location </th>
+      </thead>
+      <tbody>
+          <tr>
+              <td> 01. </td>
+              <td> Raju</td>
+              <td> Frontend Developer</td>
+              <td> Hisar </td>
+          </tr>
+          <tr>
+              <td> 02. </td>
+              <td> Harry </td>
+              <td> Programmer </td>
+              <td> Rampur </td>
+          </tr>
+          <tr>
+              <td> 03. </td>
+              <td> Rehana </td>
+              <td> Frontend Developer</td>
+              <td> Delhi </td>
+          </tr>
+      </tbody>
+  </table>
+
+<!--Table in HTML with Attributes
+-->
+  <table border="1" bgcolor="cyan">
+    <thead>
+        <th> Name </th>
+        <th> Role </th>
+    </thead>
+    <tbody>
+        <tr>
+            <td> Raju </td>
+            <td rowspan="2"> Frontend Developer </td>
+            </tr>
+        <tr>
+            <td> Rehana </td>
+        </tr>
+        <tr>
+            <td colspan="2"> Book Mentor </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2"> Web Development Mentor </td>
+        </tr>
+    </tfoot>
+</table>
+
+
     <!--HTML Table Borders-->
 
     <!--Form-->
@@ -266,6 +329,15 @@
     <input type="time">
     <input type="url">
     <input type="week">
+
+    <!--Input Tag Attributes in HTML-->
+    <input type="text" name="text">
+    <input type="text" placeholder="Enter your name...">
+    <input type="text" disabled value="raju">
+    <input type="text" value="raju">
+    <input type="text" readonly value="raju">
+    <input type="text" required>
+    <input type="range" name="" id="" min="0" max="100">
 
     <!--HTML Input Attributes-->
     <!--The value Attribute-->
@@ -358,6 +430,15 @@
         </datalist>
       </form>
 
+      <!--datalist-->
+      <input list="languages" id="" name="" />
+    <datalist id="languages">
+        <option value="HTML">
+        <option value="CSS">
+        <option value="JavaScript">
+    </datalist>
+
+
       <!--The autocomplete Attribute-->
       <form action="/action_page.php" autocomplete="on">
         <label for="fname">First name:</label>
@@ -448,7 +529,7 @@
 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
     Your browser does not support the HTML canvas tag.
     </canvas>
-
+    <canvas id="myCanvas" width="200" height="100" style="border: 1px solid black;"></canvas>
 
     <!--SVG-->
     <svg width="100" height="100">
@@ -461,18 +542,41 @@
 
     <iframe src="index.html" height="800px" width="500px"> </iframe>
 
+    <!--Iframe-->
+    <iframe src="URL" title="description" frameborder="0"></iframe>
+
+    <iframe src="https://www.geekshelp.in"
+        title="Website for web developers and computer science students"
+        frameborder="1"
+        height="300px"
+        width="400px"
+        style="border: 5px solid purple;">
+</iframe>
+
     <!--list-->
     <ul>
       <li>dhoni</li>
       <li>virat</li>
       <li>yuvi</li>
     </ul>
+    <ul type="circle">
+      <li> HTML Simplified </li>
+      <li> CSS Master </li>
+      <li> JavaScript Simplified </li>
+  </ul>
+  
 
     <ol>
       <li>cric</li>
       <li>foot</li>
       <li>volly</li>
     </ol>
+    <ol type="A">
+      <li> HTML Simplified </li>
+      <li> CSS Master </li>
+      <li> JavaScript Simplified </li>
+  </ol>
+  
 
     <dl>
         <dt>Coffee</dt>
@@ -558,7 +662,12 @@
 <time>
 
 -->
-
+<nav> This is our navbar </nav>
+<header> This is our header </header>
+<main> This is our main container tag for our html document</main>
+<div> Div tag is used for division</div>
+<section> This is our section </section>
+<footer> This is footer of our html document </footer>
 
         <!--code-->
         <code>
@@ -569,6 +678,7 @@
 
         <!--Kbd-->
         <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+        <p>Press: <kbd>ctr</kbd> + <kbd>C</kbd> for copy to clipboard</p>
 
         <!-- <samp> For Program Output-->
 <p><samp>File not found.<br>Press F1 to continue</samp></p>
@@ -610,10 +720,11 @@
 
     <!--The <embed> Element-->
         <embed width="100%" height="500px" src="snippet.html">
+          <embed width="20%" height="auto" src="video.mp4">
 
 <!--progress-->
             <progress value="33" max="100"></progress>
-
+            20% value out of 100: <progress value="20" max="100">20%</progress>
 
             <!--optgroup-->
             <select>
@@ -632,7 +743,7 @@
 <!--meter-->
 
            <meter value="11" min="0" max="45" optimum="40">25 out of 45</meter> 
-
+           <meter value="5" min="0" max="10"></meter>
 
            <!--RP Tag <rp>-->
             <ruby>
@@ -649,6 +760,7 @@
 
     <!--TIME Tag <time>-->
         <p>The concert starts at <time>20:00</time>.</p>
+        <p>Time start from: <time>10:00</time> to <time>21:00</time> every day</p>
 
     <!--WBR Tag <wbr>-->
     <p>http://this<wbr>.is<wbr>.a<wbr>.really<wbr>.long<wbr>.example<wbr>.com/With<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages</p>
@@ -671,7 +783,11 @@
 
     <!--DETAILS Tag <details>-->
         <details><summary>Some details</summary><p>More info about the details.</p></details>
-
+        <details>
+          <summary>Do Epic Shit</summary>
+          <p>In his first book, Ankur Warikoo talks about success and failures, the importance of habits, self-awareness,
+              entrepreneurship, money and relationships.</p>
+  </details>
 
         <!--DIALOG Tag <dialog>-->
             <dialog open>
