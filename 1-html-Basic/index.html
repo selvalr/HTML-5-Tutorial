@@ -32,7 +32,7 @@
   </head>
   <!--element defines the document's body,-->
   <body>
-    <!--base tag access-->
+    <!-- base tag access
     <img src="1-95.jpg" width="400" height="250" />
 
 
@@ -42,8 +42,9 @@
     <h3>welcome</h3>
     <h4>welcome</h4>
     <h5>welcome</h5>
-    <h6>welcome</h6>
+    <h6>welcome h6</h6>
 
+    
     <!-- image tag-->
     <!--The src Attribute alt and height width attribute-->
     <img src="./1.jpg" alt="imag" />
@@ -63,15 +64,27 @@
 
     <!--href attribute HTML Links-->
 
-    <a href="http://www.google.com">welcome</a>
-    <a href="#first">parage </a>
+    <a href="http://www.google.com">welcome</a><br>
+    <a href="#first">paragraph </a><br>
 
     <!--Image and Anchor Tag in HTML-->
-    <img src="myImage.png" width="50px" height="50px" alt="raju_webdev image" title="I am raju Frontend Web Developer">
-    <a href="https://www.geekshelp.in" target="_blank"> Geeks Help </a>
-    <a href="mailto:contact.geekshelp.@gmail..com">Send email</a>
-    <a href="tel:+91123456789">123456789</a>
-    <a href="#section">Go to Section</a>
+    <img src="myImage.png" width="50px" height="50px" alt="raju_webdev image" title="I am raju Frontend Web Developer"><br>
+    <a href="https://www.geekshelp.in" target="_blank"> Geeks Help </a><br>
+    <a href="mailto:contact.geekshelp.@gmail..com">Send email</a><br>
+    <a href="tel:+91123456789">123456789</a><br>
+    <a href="#section">Go to Section</a><br>
+
+<!--target blank,self-->
+    <ul>
+      <li><a href="07_tables.html" target="_blank"> Tables</a></li>
+      <li><a href="07_tables.html" target="_self"> Tables</a></li>
+      <li><a href="07_tables.html" target="_parent"> Tables</a></li>
+      <li><a href="07_tables.html" target="_top"> Tables</a></li>
+      <li><a href="https://www.tutorjoes.in/html_tutorial/image_tag_example_program_in_html" target="_blank" > Images</a></li>
+      <li ><a href="v2.jpg"> Lists</a></li>
+      <li ><a href="img/v.jpg"> Lists</a></li>
+  </ul>
+<a href="mailto:tutorjoes@gmail.com"> Send E-Mail</a>
 
     <!--The title Attribute in Abbrevation-->
     <p title='John "ShotGun" Nelson'>
@@ -83,6 +96,8 @@
 
   <!--HTML Horizontal Rules-->
   <hr>
+  <hr align="center" width="70%" size="3" color="#8080ff">
+    
 
   <!--The HTML <pre> Element-->
 <pre>
@@ -152,7 +167,7 @@
 
 <!-- Write your comments here -->
 <!--  -->
-
+<br>
 <!--Link to an Email Address-->
 <a href="mailto:someone@example.com">Send email</a>
 
@@ -191,7 +206,7 @@
     </p>
 
     <h2>hello selva <small>text small</small> to html</h2>
-    <h2>welcome to <mark>maked selva</mark></h2>
+    <h2>welcome to <mark>marked selva</mark></h2>
     <p>my favorite color is <del>red</del>blue</p>
     <p>hai how ar u <ins>inserted word</ins>hbf</p>
     <p>hai <sub>subscripted</sub>text</p>
@@ -246,6 +261,94 @@
           </tr>
       </tbody>
   </table>
+
+
+  <!--2.Table-->
+  <table border='1' cellpadding='10' cellspacing='10'>
+    <caption>Table 1.1</caption>
+        <colgroup>
+            <col span="2">
+            <col span="7" bgcolor="#e2ddb8">
+            <col span="2">
+        </colgroup>
+    <thead>
+        <tr>
+            <th colspan='7'>Mark List</th>
+        </tr>
+        <tr>                
+            <th>SNO</th>
+            <th>NAME</th>
+            <th>ROLLNO</th>
+            <th>TAMIL</th>
+            <th>ENGLISH</th>
+            <th>MATHS</th>
+            <th>TOTAL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td><sup>2</sup>&#8730; x</td>
+            <td>101</td>
+            <td>76</td>
+            <td>96</td>
+            <td>90</td>
+            <td>272</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sam</td>
+            <td>102</td>
+            <td bgcolor='red'><font color='white'>85</font></td>
+            <td>79</td>
+            <td>99</td>
+            <td>282</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ram</td>
+            <td>101</td>
+            <td>76</td>
+            <td>96</td>
+            <td>90</td>
+            <td>272</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sam</td>
+            <td>102</td>
+            <td>85</td>
+            <td>79</td>
+            <td>99</td>
+            <td>282</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Ram</td>
+            <td>101</td>
+            <td>76</td>
+            <td>96</td>
+            <td>90</td>
+            <td>272</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Sam</td>
+            <td>102</td>
+            <td>85</td>
+            <td>79</td>
+            <td>99</td>
+            <td>282</td>
+        </tr>
+    </tbody>
+    <tfoot>            
+        <tr>
+            <th colspan='6'>Total</th>
+            <th>850</th>
+        </tr>
+    </tfoot>        
+</table>
+
 
 <!--Table in HTML with Attributes
 -->
@@ -553,7 +656,23 @@
         style="border: 5px solid purple;">
 </iframe>
 
+<!--Frameset-->
+ <!---<frameset rows="25%,25%,25%,25%">--->
+  <frameset cols="25%,25%,25%,25%">
+    <frameset rows="50%,50%">
+        <frameset cols="30%,*">
+            <frame src="red.html"></frame>
+            <frame src="purple.html"></frame>
+        </frameset>
+        <frame src="black.html"></frame>
+    </frameset>
+    <frame src="green.html"></frame>
+    <frame src="red.html"></frame>
+    <frame src="purple.html"></frame>
+</frameset>
+
     <!--list-->
+    <!--Unordered List: -->
     <ul>
       <li>dhoni</li>
       <li>virat</li>
@@ -564,8 +683,47 @@
       <li> CSS Master </li>
       <li> JavaScript Simplified </li>
   </ul>
-  
 
+  <!---->
+  <ul>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+</ul>        
+<ul type="circle">
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+</ul>
+<ul type="square">
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+</ul>
+<ul type="circle">
+    <li> Computer</li>
+    <li>
+        Computer
+            <ul type="square">
+                <li>Keyboard</li>
+                <li>Keyboard</li>
+                <li>Keyboard</li>
+                <li>Keyboard</li>
+                <li>Keyboard</li>
+            </ul>
+    </li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+</ul>
+  
+<!--Ordered list-->
     <ol>
       <li>cric</li>
       <li>foot</li>
@@ -576,14 +734,111 @@
       <li> CSS Master </li>
       <li> JavaScript Simplified </li>
   </ol>
-  
 
+
+  <!--2-->
+  <ol>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+</ol>
+<ol type="a">
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+</ol>        
+<ol type="A">
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+</ol>
+<ol type="i">
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+</ol>        
+<ol type="I">
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+    <li> Computer</li>
+</ol>
+  
+<!--Definition List-->
     <dl>
         <dt>Coffee</dt>
         <dd>- black hot drink</dd>
         <dt>Milk</dt>
         <dd>- white cold drink</dd>
       </dl>
+<!--2-->
+
+<dl>
+  <dt>HTML</dt>
+  <dd> 
+      Hyper text Markup Language
+      <dl>
+          <dt>CSS</dt>
+          <dd> Cascading Stylesheet</dd>
+      </dl>
+  </dd>
+  <dt>CSS</dt>
+  <dd> 
+      Cascading Stylesheet
+          <ul type="square">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>JQUERY</li>
+              <li>PHP</li>
+          </ul>
+  </dd>
+</dl>
+
+
+<!--Menu list-->
+<menu>
+  <li> Computer</li>
+  <li> Computer</li>
+  <li> Computer</li>
+  <li> Computer</li>
+  <li> Computer</li>
+</menu>
+
+<menu>
+  <menuitem> Computer</menuitem>
+  <menuitem> Computer</menuitem>
+  <menuitem> Computer</menuitem>
+  <menuitem> Computer</menuitem>
+  <menuitem> Computer</menuitem>
+</menu>
+
+
+<!--Directory List-->
+<dir>
+  <li> Computer</li>
+  <li> Computer</li>
+  <li> Computer</li>
+  <li> Computer</li>
+  <li> Computer</li>
+</dir>
+
+
+<!--marquee-->
+<marquee bgcolor="orange" height="100px" width="300px" behavior="alternate" 
+direction="left">
+Tutor Joes
+</marquee>
+
 
 
 
@@ -630,6 +885,12 @@
         -->
 
 
+        <!--Image-->
+
+        <img src="flower.jpg" alt="Flower" height="250px" width="400px"> <!--image placed in the same folder--->
+    <img src="images/flower.jpg" alt="Flower" height="250px" width="400px"> <!--image placed inside an images folder--->
+    <img src="../images/flower.jpg" alt="Flower" height="250px" width="400px"> <!--image placed in the outside of the html file --->
+    <img src="images/flower.jpg" alt="Flower" title="Sunshine red Reflection Flower">
 
 
         <!--Iframe-->
@@ -686,6 +947,11 @@
 <!--var-->
 <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
 
+
+<!--Font Tag-->
+<font face="roboto" size='5' color="red">
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+</font>
 
 <!--HTML Entities-->
 &#160;
@@ -793,6 +1059,38 @@
             <dialog open>
                 <p>Greetings, one and all!</p>
               </dialog>
+
+
+               
               
 </body>
 </html>
+
+
+<!--HTML 5 sematically tag
+
+
+
+<!DOCTYPE html> 
+
+<html>  
+   <head> 
+      <meta charset = "utf-8"> 
+      <title>...</title> 
+   </head> 
+  
+   <body> 
+      <header>...</header> 
+      <nav>...</nav> 
+      
+      <article> 
+         <section> 
+            ... 
+         </section> 
+      </article> 
+      <aside>...</aside> 
+      
+      <footer>...</footer> 
+   </body> 
+</html> 
+              -->
